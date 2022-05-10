@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">yolarkadasim</string>
+    <string-array name="cinsiyet">
+        <item>ERKEK</item>
+        <item>KADIN</item>
+    </string-array>
+    <string name="title_activity_ilanvermap">ilanvermap</string>
+    <string name="title_activity_ilanigoruntulemap">ilanigoruntulemap</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "613894756589",
+    "project_id": "yolarkadasim-f2ec0",
+    "storage_bucket": "yolarkadasim-f2ec0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613894756589:android:d34a09aa0d047fef8014e4",
+        "android_client_info": {
+          "package_name": "com.huso.yolarkadasim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613894756589-16e4np20vqvhl93r0242s1d4nfrv9min.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWqZcb1IBS2liq38s1YBk07WRXUDt2W6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613894756589-16e4np20vqvhl93r0242s1d4nfrv9min.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

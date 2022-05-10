@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/githubgray"
+    tools:context=".IlanlarSayfasi">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/githubgray"
+        android:elevation="0dp">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginBottom="26dp"
+            app:expandedTitleMarginStart="26dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+            app:title="@string/app_name"
+            app:titleEnabled="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_collapseMode="parallax">
+
+                <TextView
+                    android:id="@+id/yolculukilanlari_hosgeldinizyazisi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="Hoşgeldiniz"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/yolculukilanari_yolculukilanibulyazisi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/yolculukilanlari_hosgeldinizyazisi"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="İlanları arayabilirsiniz"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="60dp"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="0dp"
+                        app:strokeWidth="0.3dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp">
+
+                            <SearchView
+                                android:id="@+id/search_bar_arama"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="1dp"
+                                android:layout_marginTop="6dp"
+                                android:layout_marginEnd="1dp"
+                                android:layout_marginBottom="7dp"
+                                app:iconifiedByDefault="false"
+                                app:queryHint="İs İlanı Ara" />
+
+
+                        </RelativeLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/nestedscrollview_gorunumu"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="5dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cizgi" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/yolculukilanlari_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager">
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

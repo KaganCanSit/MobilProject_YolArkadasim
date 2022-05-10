@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/githubgray"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@color/temacolor"
+                android:padding="20dp">
+
+
+                <TextView
+                    android:id="@+id/hosgeldin_yazisi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:includeFontPadding="false"
+                    android:text="Yol arkaşını bul"
+                    android:textColor="@color/white"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/aciklama_yazisi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/hosgeldin_yazisi"
+                    android:layout_marginLeft="10dp"
+                    android:includeFontPadding="false"
+                    android:text="Yol arkaşını bulmak için ilanı ver ve arkadaşını bul"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Kalkış yeri :"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/yolculukadi_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edittextgorunumu"
+                    android:hint="Kalkış Yerini Giriniz...."
+                    android:minHeight="50dp"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Varış yeri :"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/varisisinadi_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edittextgorunumu"
+                    android:hint="Varış Yerini Giriniz...."
+                    android:minHeight="50dp"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Açıklama : "
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/aciklama_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edittextgorunumu"
+                    android:gravity="top"
+                    android:hint="Açıklamayı Giriniz...."
+                    android:inputType="textCapSentences|textMultiLine"
+                    android:minHeight="150dp"
+                    android:padding="10dp" />
+
+                <fragment
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="5dp"
+                    tools:context=".IlanVermeSayfasi" />
+
+                <Button
+                    android:id="@+id/yolculukilaniverbuton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="@color/temacolor"
+                    android:onClick="yolculukilaniverbutonu"
+                    android:text="ilan ver"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
+

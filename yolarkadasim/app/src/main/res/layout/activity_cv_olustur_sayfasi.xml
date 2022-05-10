@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilGuncelleSayfasi"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/temacolor"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/hosgeldin_yazisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:includeFontPadding="false"
+            android:text="Profili Düzenle"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aciklama_yazisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hosgeldin_yazisi"
+            android:layout_marginLeft="10dp"
+            android:includeFontPadding="false"
+            android:text="İsteğe bağlı olarak profil bilgilerini giriniz"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/githubgray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Adınızı ve Soyadınızı Giriniz"
+                android:textColorHint="@android:color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/advesoyad_cv_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_advesoyad"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorLink="@color/temacolor">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Yaşınızı Giriniz"
+                android:textColorHint="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/yas_cv_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_yas"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorLink="@color/temacolor">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cinsiyet"
+                android:textColorHint="@color/white"
+                app:startIconDrawable="@drawable/ic_cinsiyet">
+
+                <AutoCompleteTextView
+                    android:id="@+id/cinsiyet_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="none"
+                    android:text="Erkek"
+                    android:textColor="@color/white"
+                    android:textColorLink="@color/temacolor" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Sehrinizi Giriniz"
+                android:textColorHint="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/sehir_cv_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorLink="@color/temacolor">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Emailınızı Giriniz"
+                android:textColorHint="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email_cv_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_email_24"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorLink="@color/temacolor">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Telefonunuzu Giriniz"
+                android:textColorHint="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/telefon_cv_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_call_24"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorLink="@color/temacolor">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Diğer Girmek İstediklerinizi Giriniz"
+                android:textColorHint="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/diger_cv_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_diger"
+                    android:drawablePadding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorLink="@color/temacolor">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/temacolor"
+                android:onClick="cvkaydetbutonu"
+                android:text="Kaydet"
+                android:textColor="#ffff"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
