@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfaf23af-859b-43bd-92ab-7a44ab72bec9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/yolarkadasim/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolarkadasim/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/Anasayfa.java" beforeDir="false" afterPath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/Anasayfa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/IlanDetaySayfasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/IlanDetaySayfasi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/IlanVermeSayfasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/IlanVermeSayfasi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/IlanlarListesiSayfasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/IlanlarListesiSayfasi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/IlanlarSayfasi.java" beforeDir="false" afterPath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/IlanlarSayfasi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/isilanlaridizisi.java" beforeDir="false" afterPath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/yolculukilanlaridizisi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/isteklistesidizisi.java" beforeDir="false" afterPath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/isteklistesidizisi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/recyclerview_isilanlari_adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/recyclerview_yolculukilanlari_adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/recyclerview_isteklistesi_adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/yolarkadasim/app/src/main/java/com/huso/yolarkadasim/recyclerview_isteklistesi_adapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolarkadasim/app/src/main/res/layout/activity_isilanlari_sayfasi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolarkadasim/app/src/main/res/layout/activity_yolculukilanlari_sayfasi.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolarkadasim/app/src/main/res/layout/recyclerview_isilanlari.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yolarkadasim/app/src/main/res/layout/recyclerview_yolculukilanlari.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bfaf23af-859b-43bd-92ab-7a44ab72bec9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
