@@ -62,8 +62,6 @@ public class IlanVermeSayfasi extends FragmentActivity implements OnMapReadyCall
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
         binding = ActivityIlanvermapBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
