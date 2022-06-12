@@ -35,6 +35,11 @@ Ana sayfa tüm işlemlere erişimimizi sağlayan ve kullanıcıları giriş yapt
 ![İlanAra](https://github.com/KaganCanSit/MobilProject_YolArkadasim/blob/main/Image/App/05.JPG)
 ![İlanDetay](https://github.com/KaganCanSit/MobilProject_YolArkadasim/blob/main/Image/App/07.JPG)
 
+
+
+#Tercih Edilen Araçları
+Uygulama geliştirilirken Android Studio ortamında Java dili kullanılmış ve database işlemleri için Firebase tercih edilmiştir. 
+
 Tüm uygulamayı incelemek için indirebilirsiniz.
 
 
