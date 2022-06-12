@@ -14,7 +14,7 @@ Uygulamamız içerisinden bazı görselleri aşağıya ekliyorum.
 ![İlanAra](https://github.com/KaganCanSit/MobilProject_YolArkadasim/blob/main/Image/App/05.JPG)
 ![İstekListesi](https://github.com/KaganCanSit/MobilProject_YolArkadasim/blob/main/Image/App/06.JPG)
 
-Tüm uygulamayı incelemek için indirebilir ve inceleyebilirsiniz.
+Tüm uygulamayı incelemek için indirebilirsiniz.
 
 Ekip;
 
